@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PBw-bk-wtf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eT8-06-6zO">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="oXp-uz-zV0">
             <objects>
-                <tableViewController id="PBw-bk-wtf" customClass="ViewController" customModule="oneCommit_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="vc" id="PBw-bk-wtf" customClass="ViewController" customModule="oneCommit_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NWP-gB-PWD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="-75.362318840579718" y="84.782608695652186"/>
         </scene>
-        <!--View Controller-->
+        <!--Custom View Controller-->
         <scene sceneID="LyL-1V-r1J">
             <objects>
-                <viewController id="eT8-06-6zO" sceneMemberID="viewController">
+                <viewController id="eT8-06-6zO" customClass="customViewController" customModule="oneCommit_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HaI-Ip-xlw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
