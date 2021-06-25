@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UITableViewController {
+    
     let data = ["HoonIOS", "iOS", "swift", "developer"]
     
     @IBOutlet weak var pickerField: UITextField!
@@ -25,17 +26,17 @@ class ViewController: UITableViewController {
         let toolBar = UIToolbar()
         toolBar.frame = CGRect(x: 0, y: 0, width: 0, height: 40)
         toolBar.backgroundColor = .darkGray
-        
+        self.pickerField.inputAccessoryView = toolBar
+
         let BarButton = UIBarButtonItem()
         BarButton.title = "Done"
         BarButton.target = self
         BarButton.action = #selector(DoneButton(_:))
         
         let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-        
         toolBar.setItems([space ,BarButton], animated: true)
         self.pickerField.inputView = picker
-        self.pickerField.inputAccessoryView = toolBar
+        
     }
     @objc func DoneButton(_ sender: Any) {
         self.view.endEditing(true)
@@ -55,8 +56,9 @@ extension ViewController: UIPickerViewDelegate {
         }
     
     func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
-        return 60
+        return 30
     }
+    
     //피커뷰의 아이템 이름 설정
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return self.data[row]
@@ -67,7 +69,7 @@ extension ViewController: UIPickerViewDataSource {
     //데이터소스 메서드
     //컴포넌트의 갯수
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 3
+        return 1
     }
     
     //피커뷰의 컴포넌트 안의 아이템갯수

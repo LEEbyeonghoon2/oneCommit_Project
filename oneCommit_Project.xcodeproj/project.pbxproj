@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC48BBAE2685985E0094127C /* customViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48BBAD2685985E0094127C /* customViewController.swift */; };
 		BCD2C04B2661D681003055FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD2C04A2661D681003055FF /* AppDelegate.swift */; };
 		BCD2C04D2661D681003055FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD2C04C2661D681003055FF /* SceneDelegate.swift */; };
 		BCD2C04F2661D681003055FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD2C04E2661D681003055FF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC48BBAD2685985E0094127C /* customViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewController.swift; sourceTree = "<group>"; };
 		BCD2C0472661D681003055FF /* oneCommit_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneCommit_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD2C04A2661D681003055FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCD2C04C2661D681003055FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				BCD2C04A2661D681003055FF /* AppDelegate.swift */,
 				BCD2C04C2661D681003055FF /* SceneDelegate.swift */,
 				BCD2C04E2661D681003055FF /* ViewController.swift */,
+				BC48BBAD2685985E0094127C /* customViewController.swift */,
 				BCD2C0502661D681003055FF /* Main.storyboard */,
 				BCD2C0532661D681003055FF /* Assets.xcassets */,
 				BCD2C0552661D681003055FF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				BCD2C04F2661D681003055FF /* ViewController.swift in Sources */,
 				BCD2C04B2661D681003055FF /* AppDelegate.swift in Sources */,
 				BCD2C04D2661D681003055FF /* SceneDelegate.swift in Sources */,
+				BC48BBAE2685985E0094127C /* customViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
